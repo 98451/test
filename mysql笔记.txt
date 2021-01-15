@@ -1,0 +1,22 @@
+更新数据库中一行信息:
+update 表名 set 字段=值,字段2=值2.... 筛选条件;
+删除一行信息
+delete from 表名 筛选条件;
+插入一条数据
+insert into 表名 (字段1,字段2.....)  values  (值1,值2....);
+插入一行信息
+insert into 表名 values (值1,值2....);
+删除字段
+alter table 表名 drop 字段1,drop 字段2.....;
+添加字段
+alter table 表名 add  字段1 数据类型,add 字段2 数据类型;
+筛选条件顺序
+where, group by ,having,order by,limit
+github的token:
+f4c8389acdbff6434b4a6f32f6387320f721b57f
+更新列名
+	alter table 表名 change 旧列名 新列名 数据类型(长度);
+更新表名
+	rename table 旧表名 to 新表名;
+查看创建表的语句
+	show create table 表名;
