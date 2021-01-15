@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .outer{
+            width:600px;
+            height:400px;
+            margin:20px auto;
+        }
+        table{
+            /* 合并边框 */
+          border-collapse: collapse;  
+        }   
+       td{
+        border:1px solid black;
+        width:100px;
+        height:40px; 
+       } 
+       
+       ul>li{
+           list-style: none;
+           float:left;
+           width:140px;
+           height: 60px;
+       }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h1 align="center">员工请假申请单</h1>  
+        <table>
+            <tr>
+                <td>姓名</td>
+                <td></td>
+                <td>部门</td>
+                <td></td>
+                <td>工号</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>职工</td>
+                <td colspan="2"></td>
+                
+                <td>申请时间</td>
+                <td colspan="2"></td>
+               
+            </tr>
+            <tr>
+                <td>请假时间(天数)</td>
+                <td colspan="5">从&nbsp;年&nbsp;月&nbsp;日&nbsp;时到&nbsp;年&nbsp;月&nbsp;日&nbsp;时,共&nbsp;天&nbsp;时</td>
+               
+            </tr>
+            <tr>
+                <td>代理人</td>
+                <td colspan="2"></td>
+                <td></td>
+                <td colspan="2"></td>
+                
+                  
+            </tr>
+            <tr style="height:100px">
+                <td>工作交接事项或NO</td>
+                <td colspan="5"></td>
+               
+            </tr>
+            <tr style="height:100px">
+                <td>事由</td>
+                <td colspan="5"></td>
+                
+            </tr>
+        </table> 
+        <ul >
+            <li>申请人:</li>
+            <li>代理人:</li>
+            <li>单位主管:</li>
+            <li>核准:</li>
+        </ul>
+    </div>
+
+</body>
+</html>
